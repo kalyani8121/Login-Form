@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    background-image:url(https://res.cloudinary.com/dhmiizo6f/image/upload/v1696693999/samples/cup-on-a-table.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    align-items: center;
+    height: 100vh;
+
+
+   
+}
+.container {
+    background-color:lightgray; 
+    border: 2px solid #161313;
+    border-radius: 20px;
+    padding: 50px; 
+    width: 400px; 
+    margin: 10px auto;
+    box-shadow: 10px 3px 5px #888888;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color:black;
+}       
+
+input[type="text"],
+input[type="password"],
+input[type="checkbox"],
+button {
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #f1ecec;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    width: 300px;
+}
+.line {
+    flex: 1;
+    border-top: 1px solid blue;
+}
+.or-text {
+    padding:  10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3b5998;
+}
+button[type="button"] {
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button[type="button"]:hover {
+    background-color: #29487d;
+}
+
+
